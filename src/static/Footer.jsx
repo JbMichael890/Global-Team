@@ -34,7 +34,10 @@ hr{
 const Logo = styled.div`
 display: flex;
 align-items: center;
-/* width: 90%; */
+flex-wrap: wrap;
+@media (max-width: 768px) {
+  text-align: center;
+}
 
 h3{
   
