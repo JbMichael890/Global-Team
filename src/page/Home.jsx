@@ -57,7 +57,11 @@ nav{
   font-size: 40px;
   font-weight: 700;
   margin-top: 10px;
-  
+@media (max-width:500px) {
+  font-size: 35px;
+}
+@media (max-width:400px) {
+  font-size: 27px}
 }
 p{
   
